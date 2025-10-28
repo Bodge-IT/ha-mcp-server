@@ -1,6 +1,8 @@
 # Home Assistant MCP Server
 
-A Model Context Protocol (MCP) server for Home Assistant automation management.
+I couldn't get any of the HomeAssistant MCP servers to work properly, so I made my own.  
+I use it to help develop for my own HA improvements and it's provided everything I need so far.
+If you have any suggestions, feel free to reach out.
 
 ## Features
 
@@ -36,7 +38,7 @@ Add to your Claude Desktop configuration:
     "homeassistant": {
       "command": "ha-mcp-server",
       "env": {
-        "HA_URL": "http://172.16.10.101:8123",
+        "HA_URL": "http://ha.server.ip:8123",
         "HA_TOKEN": "your_long_lived_access_token_here"
       }
     }
